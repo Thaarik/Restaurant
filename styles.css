@@ -1,0 +1,85 @@
+/* html{
+    height:100%;
+    width:100%;
+} */
+body {
+    /* background-color: slategrey; */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg.jpg);
+    background-size: cover; /*to cover the background image */
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.container {
+    width: 1024px;
+    margin-left: auto;
+    /*automatically sets margin to the left */
+    margin-right: auto;
+    /*automatically sets margin to the right */
+    /* sets margin to the center */
+}
+
+header {
+    /* background-color: blue; */
+    height: 118px;
+    text-align: center;
+    /* Brings Image to the center */
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+main {
+    /* background-color: orange; */
+    height: 400px;
+    text-align: center; /*bringing the h1 and p to the center */
+    padding-top: 80px;
+    /* margin-top:80px; --> brings the main (orange box) down to 80 px....so carefully choose margin and padding */
+    padding-left:240px;
+    padding-right:240px; /* Bringing h1 and p to the correct position to the center */
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+}
+h1{
+    font-size: 84px;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 18px;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+nav a{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer p{
+    padding-top: 40px;
+    font-size: small;
+}
+section{
+   text-align: center;
+}
