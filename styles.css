@@ -1,13 +1,14 @@
 /* html{
     height:100%;
-    width:100%;
+    
 } */
 body {
     /* background-color: slategrey; */
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(bg.jpg);
     background-size: cover; /*to cover the background image */
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     
 }
 
@@ -82,4 +83,13 @@ footer p{
 }
 section{
    text-align: center;
+}
+.map{
+    margin-top: 20px;
+}
+.video{
+    margin-top: 20px;
+}
+.res{
+    margin-top: 20px;
 }
